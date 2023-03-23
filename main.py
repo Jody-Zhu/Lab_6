@@ -1,3 +1,4 @@
+#Jody_Zhu
 def encoder(not_encoded):
     result = []
     final = ""
@@ -8,7 +9,7 @@ def encoder(not_encoded):
         #add 3 to the different values in the string
         final += str(j)
     return final
-
+#Zhu_Jody
 def decoder(encoded):
     result = []
     final = ""
@@ -19,7 +20,7 @@ def decoder(encoded):
         #subtracts instead of add
         final += str(j)
     return final
-
+#Jody_Zhu
 def main():
     while True:
         print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
